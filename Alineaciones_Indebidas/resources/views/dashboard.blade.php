@@ -45,7 +45,7 @@
 
         <!-- Slide 2 -->
         <div class="carousel-item">
-        <img src="images/ChatGPT Image 5 may 2025, 16_03_57.png" class="d-block w-100" alt="Editar Alineaciones">
+        <img src="images/ChatGPT Image 19 may 2025, 10_44_31.png" class="d-block w-100" alt="Editar Alineaciones">
         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
             <h5>Edita y ajusta con facilidad</h5>
             <p>Modifica tus alineaciones en segundos, con múltiples opciones y plantillas para adaptarte a cualquier estilo de juego.</p>
@@ -63,7 +63,7 @@
 
         <!-- Slide 4 -->
         <div class="carousel-item">
-        <img src="ruta-a-tu-imagen4.jpg" class="d-block w-100" alt="Equipos Personalizados">
+        <img src="images/ChatGPT Image 19 may 2025, 10_34_29.png" class="d-block w-100" alt="Equipos Personalizados">
         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
             <h5>Gestiona tus propios equipos</h5>
             <p>Crea equipos personalizados con escudos, nombres y colores, ¡hazlo tan real como tú quieras!</p>
@@ -72,7 +72,7 @@
 
         <!-- Slide 5 -->
         <div class="carousel-item">
-        <img src="ruta-a-tu-imagen5.jpg" class="d-block w-100" alt="Sugerencias y Feedback">
+        <img src="images/ChatGPT Image 19 may 2025, 10_40_07.png" class="d-block w-100" alt="Sugerencias y Feedback">
         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
             <h5>¿Tienes ideas? ¡Queremos escucharlas!</h5>
             <p>Envía sugerencias para mejorar la app y ayúdanos a crecer contigo. ¡Tu opinión cuenta!</p>

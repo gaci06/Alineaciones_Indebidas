@@ -38,7 +38,7 @@
                 <option value="">-- Selecciona una posición --</option>
                 <option value="Portero" {{ old('posicion') == 'Portero' ? 'selected' : '' }}>Portero</option>
                 <option value="Defensa" {{ old('posicion') == 'Defensa' ? 'selected' : '' }}>Defensa</option>
-                <option value="Centrocampista" {{ old('posicion') == 'Centrocampista' ? 'selected' : '' }}>Centrocampista</option>
+                <option value="Mediocentro" {{ old('posicion') == 'Mediocentro' ? 'selected' : '' }}>Mediocentro</option>
                 <option value="Delantero" {{ old('posicion') == 'Delantero' ? 'selected' : '' }}>Delantero</option>
             </select>
         </div>

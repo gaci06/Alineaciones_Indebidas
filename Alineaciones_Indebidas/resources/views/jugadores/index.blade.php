@@ -32,8 +32,15 @@
                         <a href="{{ route('jugadores.edit', $jugador->id) }}" class="btn btn-sm btn-warning">
                             Editar
                         </a>
-                        {{-- También podrías incluir un botón para ver detalles o eliminar --}}
+
+                        {{-- Botón para eliminar jugador --}}
+                        <form action="{{ route('jugadores.destroy', $jugador->id) }}" method="POST" style="display:inline-block" onsubmit="return confirm('¿Estás seguro de que deseas eliminar este jugador?');">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" class="btn btn-sm btn-danger">Eliminar</button>
+                        </form>
                     </td>
+
                 </tr>
             @empty
                 <tr>

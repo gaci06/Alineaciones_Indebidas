@@ -65,7 +65,7 @@
                 <option value="">-- Selecciona una posición --</option>
                 <option value="Portero" {{ old('posicion', $jugador->posicion) == 'Portero' ? 'selected' : '' }}>Portero</option>
                 <option value="Defensa" {{ old('posicion', $jugador->posicion) == 'Defensa' ? 'selected' : '' }}>Defensa</option>
-                <option value="Centrocampista" {{ old('posicion', $jugador->posicion) == 'Centrocampista' ? 'selected' : '' }}>Centrocampista</option>
+                <option value="Mediocentro" {{ old('posicion') == 'Mediocentro' ? 'selected' : '' }}>Mediocentro</option>
                 <option value="Delantero" {{ old('posicion', $jugador->posicion) == 'Delantero' ? 'selected' : '' }}>Delantero</option>
             </select>
         </div>
