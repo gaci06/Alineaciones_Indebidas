@@ -52,7 +52,7 @@
 <style>
     /* Estilos generales */
     body {
-        padding-bottom: 100px; /* Espacio para el formulario fijo */
+        padding-bottom: 100px; 
     }
     
     /* Estilos para los jugadores */
@@ -108,7 +108,7 @@
     }
     
     /* Responsividad */
-    @media (max-width: 992px) {
+    @media (max-width: 999px) {
         #campo-container {
             height: auto;
         }
@@ -132,7 +132,7 @@
 </style>
 
 <script>
-    // Drag and Drop functionality
+    // Drag and Drop
     document.querySelectorAll('.jugador, .jugador-colocado').forEach(el => {
         el.addEventListener('dragstart', e => {
             e.dataTransfer.setData('jugadorId', el.dataset.id);

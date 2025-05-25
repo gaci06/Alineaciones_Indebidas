@@ -5,7 +5,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Jugador extends Model
 {
-    protected $table = 'jugadores'; // por claridad, aunque Laravel lo inferiría
+    protected $table = 'jugadores';
     protected $fillable = [
         'nombre',
         'apellido',

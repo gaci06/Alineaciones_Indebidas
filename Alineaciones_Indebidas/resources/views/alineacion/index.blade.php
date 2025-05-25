@@ -29,7 +29,7 @@
 
         <button type="submit" class="btn btn-primary">Crear Alineación</button>
     </form>
-
+    <br>
     <a href="{{ route('alineaciones.resumen') }}" class="btn btn-secondary mb-4">Ver Alineaciones Guardadas</a>
 
 </div>

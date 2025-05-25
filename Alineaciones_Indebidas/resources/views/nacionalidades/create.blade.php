@@ -6,7 +6,7 @@
 @section('content')
     <h1>Crear Nacionalidad</h1>
 
-    {{-- Validación de errores --}}
+    
     @if ($errors->any())
         <div class="alert alert-danger">
             <ul>
@@ -17,7 +17,6 @@
         </div>
     @endif
 
-    {{-- Formulario para crear una nacionalidad --}}
     <form action="{{ route('nacionalidades.store') }}" method="POST">
         @csrf
         

@@ -8,7 +8,6 @@ class NacionalidadController extends Controller
 {
     public function index()
     {
-        // Normalmente bastaría con esto
         $nacionalidades = Nacionalidad::all();
         return view('nacionalidades.index', compact('nacionalidades'));
     }

@@ -55,7 +55,7 @@ class AlineacionController extends Controller
     $alineacion = Alineacion::findOrFail($id);
     $alineacion->update($request->only('equipo_id', 'fecha', 'nombre'));
 
-    // Aquí haces el cambio
+    
     return redirect()->route('alineaciones.index')->with('success', 'Alineación actualizada correctamente');
 }
 

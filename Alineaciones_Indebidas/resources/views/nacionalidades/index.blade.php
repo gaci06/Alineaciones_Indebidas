@@ -6,10 +6,8 @@
 @section('content')
     <h1>Nacionalidades</h1>
 
-    {{-- Botón para ir a la vista de creación --}}
     <a href="{{ route('nacionalidades.create') }}" class="btn btn-primary">Crear Nacionalidad</a>
 
-    {{-- Tabla de listado de nacionalidades --}}
     <table class="table table-striped mt-3">
         <thead>
             <tr>

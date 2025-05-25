@@ -33,7 +33,7 @@
                             Editar
                         </a>
 
-                        {{-- Botón para eliminar jugador --}}
+                        
                         <form action="{{ route('jugadores.destroy', $jugador->id) }}" method="POST" style="display:inline-block" onsubmit="return confirm('¿Estás seguro de que deseas eliminar este jugador?');">
                             @csrf
                             @method('DELETE')
